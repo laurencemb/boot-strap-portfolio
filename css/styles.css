@@ -71,8 +71,8 @@ p {
   /* Navigation links */
 
   /* Jumbotron */
-  .jumbotron {
-    background-image: url(./images/02-hero-bg.jpg);
+  .jumbotron  {
+    background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(80vh);
@@ -80,20 +80,20 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+   
   }
 
   .jumboCopy {
-    position: relative;
+    
     width: 70%;
-    min-width: 500px;
-    max-width: 700px;
     color: var(--siteblack);
     background-color: var(--corepink);
     padding: 40px;
     text-align: center;
-    left: 20%;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow:  0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.6);
+    margin-top: 70px;
+
   }
 
   .profilePic {
@@ -103,11 +103,11 @@ p {
 
   .profilePic img {
     position: relative;
-    height: 600px;
-    max-width: 600px;
+    height: 200px;
+    max-width: 200px;
     border-radius: 50vh;
-    left: -60%;
-    top: 10%;
+    left: -20%;
+    margin-top: 30%;
     box-shadow:  0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.6);
 
   }
@@ -115,6 +115,12 @@ p {
   .jumboHeading {
     border-bottom: solid 10px var(--highlightpink);
     margin-bottom: 10px;
+    30px;
+    
+  }
+
+  .jumboHeading h1{
+    font-size: 35px;
   }
 
 /* Projects */
