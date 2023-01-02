@@ -72,7 +72,7 @@ p {
 
   /* Jumbotron */
   .jumbotron {
-    background-image: url(/images/02-hero-bg.jpg);
+    background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(80vh);
