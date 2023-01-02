@@ -18,6 +18,8 @@ p {
   font-family: 'Jura', sans-serif;
 }
 
+
+
 /* Nav bar */
 
 .customNav {
@@ -61,6 +63,11 @@ p {
     border: none;
   }
 
+  .btn:hover {
+    background-color: var(--green);
+    color: var(--sitewhite);
+  }
+
   /* Navigation links */
 
   /* Jumbotron */
@@ -72,6 +79,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
   .jumboCopy {
@@ -105,11 +113,188 @@ p {
   }
 
   .jumboHeading {
-    border-bottom: solid 10px #E15A97;
+    border-bottom: solid 10px var(--highlightpink);
     margin-bottom: 10px;
   }
 
+/* Projects */
 
+  #projects {
+    padding: 20px;
+    font-size: 40px;
+    border-bottom: solid 10px var(--highlightpink);
+    margin-bottom: 30px;
+
+  }
+
+  /* cards */
+  .card{
+    padding: 5%;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .card:focus, .card:hover {
+    border: solid 0.1px var(--siteblack);
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.6);
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    object-position: top;
+    padding: 30px;
+    
+}
+
+
+
+.content {
+    padding: 50px;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+  }
+  
+  .showsNear {
+    padding: 0px 30px 30px 30px;
+  }
+  
+  .cardContainer {
+    text-align: center;
+  }
+  
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Skills */
+
+  #skills {
+    padding: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    border-bottom: solid 10px var(--highlightpink);
+    margin-bottom: 30px;
+
+  }
+
+  .skills {
+    columns: 2;
+    font-weight: 600;
+    line-height: 4
+
+  }
+
+  .skills li {
+    border-bottom: solid 2px var(--highlightpink);
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+  }
+
+  /* about me section */
+
+  #aboutme {
+    padding: 20px;
+    font-size: 40px;
+    border-bottom: solid 10px var(--highlightpink);
+    margin-bottom: -1px;
+  }
+
+
+
+  /* Get in touch */
+ 
+
+  #contactme {
+    padding: 20px;
+    font-size: 40px;
+    border-bottom: solid 10px var(--highlightpink);
+    margin-bottom: -1px;
+  }
+
+  input[type=text], select, textarea {
+    width:300px;
+    padding: 12px;
+    border: 1px solid var(--siteblack);
+    border-radius: 0%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+    justify-content: top;
+
+}
+
+.containerForm *  {
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    vertical-align: top;
+    background-color: var(--corepink);
+   
+  }
+
+input[type=submit] {
+    background-color: var(--highlightpink);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+    min-width: 200px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.1);
+  }
+
+  input[type=submit]:hover {
+    background-color: var(--green);
+  }
+
+
+  .names input {
+    width:30%;
+  }
+
+  #subject {
+    width: 1000px;
+    margin: 20px;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: var(--corepink);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer i{
+    width: 50px;
+    size: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  footer a:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(1, 1, 1, 0.1);
+  }
+  
+/* Media Quearies */
+
+@media only screen and (max-width: 600px) {
+   
+  }
 
  
 
