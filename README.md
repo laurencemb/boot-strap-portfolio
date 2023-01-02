@@ -5,8 +5,10 @@ A portfolio site made using bootstrap components.
 Portfolio site for all my front-end development work. 
 
 Link to live site:
+https://laurencemb.github.io/boot-strap-portfolio/#
 
 Screen shot of deployed site:
+![screenshot of deployed wepage](/images/Screenshot%202023-01-02%20161854.jpg)
 
 
 
