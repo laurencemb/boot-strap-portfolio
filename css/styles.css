@@ -1,0 +1,117 @@
+
+  /* Variations */
+  :root {
+   --sitewhite: #FCFAF9;
+   --siteblack: #333333;
+   --highlightpink: #E15A97;
+   --corepink: #F3D3BD;
+   --yellow: #EDB230;
+   --green: #06A77D;
+  
+  }
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+/* Nav bar */
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--corepink)  !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-item:hover a {
+    color: var(--highlightpink) !important;
+    font-weight: 600;
+
+  }
+
+  /* Navigation dropdown menu */
+.dropdown-menu {
+    background: var(--corepink);
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: var(--highlightpink);
+      text-decoration: none;
+      background: var(--highlightpink);
+  }
+
+  .btn {
+    background-color: var(--highlightpink);
+    border: none;
+  }
+
+  /* Navigation links */
+
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(/images/02-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(80vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumboCopy {
+    position: relative;
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: var(--siteblack);
+    background-color: var(--corepink);
+    padding: 40px;
+    text-align: center;
+    left: 20%;
+    border-radius: 10%;
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.6);
+  }
+
+  .profilePic {
+    position: relative;
+   max-width: 60vh;
+  }
+
+  .profilePic img {
+    position: relative;
+    height: 600px;
+    max-width: 600px;
+    border-radius: 50vh;
+    left: -60%;
+    top: 10%;
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(1, 1, 1, 0.6);
+
+  }
+
+  .jumboHeading {
+    border-bottom: solid 10px #E15A97;
+    margin-bottom: 10px;
+  }
+
+
+
+ 
+
+ 
+

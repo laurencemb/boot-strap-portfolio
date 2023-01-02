@@ -17,23 +17,45 @@
 
 <body>
     <!-- Nav Bar -->
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Me </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me </a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
-        </li>
-      </ul>
+
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav ">
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end navbar-nav mr-auto">
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle " href="#projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#Shredit">Shred-It</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#project1">Project 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#project2">Project 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#project3">Project 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#project4">Project 4</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#project5">Project 5</a>  
+                    </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#skills"> Skills</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contact Me </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Hire Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
       <!-- Jumbotron -->
 
@@ -44,23 +66,26 @@
                 <img src="images/Profile Pic.JPG" class="img-fluid" alt="A picture of Laurence Moreton Burt in a mustard yellow shirt">
             </div>
         <!-- Profile content -->
-
-                <h1 class="display-4">Laurence Moreton Burt: Front-end Developer</h1>
+            <div class="jumboCopy">
+                <div class="jumboHeading">
+                    <h1 class="display-4">Laurence Moreton Burt: Front-end Developer</h1>
+                 </div>
                 <p class="lead">Hi I'm Laurence, a front-end developer based in South London. I have recently retrained following a career within the fashion industry. In addition to my front-end development skills I have a strong interest in User Experience, and I am a qualified UX designer. Now I enjoy applying knowledge of user psychology to design and build well rounded products which feel effortless to use and which customers will return to time and again.
 
                 In my free time, you can find me exploring my creative passions of printing and sewing, or broadening my horizons in galleries and museums. I love live music, theatre and comedy. I’m no stranger to a long hike through the countryside. I can find the joy in pretty much anything!</p>
                 <hr class="my-4">
                 <p>Please get in touch to discuss your front end developmwent needs and get a free consultation and quote.</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Hire Me!</a>
+            </div>
       </div>
 
       <!-- My Work: Cards -->
     <div class="container-fluid content">
-        <h2>My Projects</h2>
+        <h2 id="projects">My Projects</h2>
             <div class="row myProjects">
 
                 <!-- Card 1 -->
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12" id="Shredit">
                     <a href="#">
                         <div class="card">
                             <img src="images/Shred it Landing Page.png" class="card-img-top" alt="Landing page for a portfolio site, in red and white">
@@ -73,7 +98,7 @@
                 </div>
                 <!-- End Card 1 -->
                 <!-- Card 2 -->
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12" id="project1">
                     <a href="#">
                         <div class="card">
                             <img src="images/02-portfolio-1.jpg" class="card-img-top" alt="Landing page for a portfolio site, in red and white">
@@ -86,7 +111,7 @@
                 </div>
                 <!-- End Card 2 -->
                 <!-- Card 3 -->
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12" id="project2">
                     <a href="#">
                         <div class="card">
                             <img src="images/02-portfolio-2.jpg" class="card-img-top" alt="Landing page for a portfolio site, in red and white">
@@ -99,7 +124,7 @@
                 </div>
                 <!-- End Card 3 -->
                 <!-- Card 4 -->
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12"id="project3">
                     <a href="#">
                         <div class="card">
                             <img src="images/02-portfolio-3.jpg" class="card-img-top" alt="Landing page for a portfolio site, in red and white">
@@ -112,7 +137,7 @@
                 </div>
                 <!-- End Card 4 -->
                 <!-- Card 5 -->
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12" id="project4">
                     <a href="#">
                         <div class="card">
                             <img src="images/02-portfolio-4.jpg" class="card-img-top" alt="Landing page for a portfolio site, in red and white">
@@ -131,7 +156,7 @@
 
     <!-- SKills section -->
     <section>
-        <h2>My Skills</h2>
+        <h2 id="skills">My Skills</h2>
         <ul>
             <li> Item 1</li>
             <li> Item 1</li>
@@ -145,7 +170,7 @@
     <!-- Contact form -->
 
     <form>
-        <div class="form-row">
+        <div class="form-row" id="contactme">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4">
@@ -203,7 +228,7 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-      </footer>
+      </footer> 
 
 
 
